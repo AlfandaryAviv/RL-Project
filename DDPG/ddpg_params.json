@@ -1,0 +1,16 @@
+{
+  "buffer_size": {"_type": "choice", "_value":  [1e6, 1e7]},
+    "batch_size": {"_type": "choice", "_value":  [64, 128, 256]},
+    "gamma": {"_type": "uniform", "_value":  [0.97, 0.99]},
+    "tau": {"_type": "uniform", "_value":  [1e-4, 1e-2]},
+    "lr_actor": {"_type": "uniform", "_value":  [5e-5, 8e-4]},
+  "lr_critic": {"_type": "uniform", "_value":  [8e-3, 5e-4]},
+  "weight_decay": {"_type": "choice", "_value":  [0, 1e-5, 1e-8]},
+  "epsilon": {"_type": "uniform", "_value":  [0.5, 1.2]},
+  "epsilon_decay": {"_type": "uniform", "_value":  [8e-7, 8e-6]},
+  "learning_period": {"_type": "quniform", "_value":  [20, 80, 10]},
+  "update_factor": {"_type": "quniform", "_value":  [10, 40, 10]},
+  "max_steps": {"_type": "quniform", "_value":  [400, 1000, 100]},
+  "linear_actor": {"_type": "choice", "_value":  [64, 128, 256]},
+    "linear_critic": {"_type": "choice", "_value":  [64, 128, 256]}
+}
