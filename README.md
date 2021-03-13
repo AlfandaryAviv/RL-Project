@@ -2,7 +2,7 @@
 
 **Contact**
 
-Shoval Frydman: 123shovalf@gmail.com , Aviv Alfandary: aviv.alfandary@gmail.com
+**Shoval Frydman:** 123shovalf@gmail.com , **Aviv Alfandary:** aviv.alfandary@gmail.com
 
 ## Overview
 
