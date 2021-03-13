@@ -1,4 +1,4 @@
-# Reinforcement-Learning-Project
+# RL-Project
 
 **Contact**
 
