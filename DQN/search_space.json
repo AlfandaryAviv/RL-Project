@@ -1,0 +1,10 @@
+{
+  "target_update": {"_type": "quniform", "_value":  [200, 800, 100]},
+  "learn_freq": {"_type": "quniform", "_value":  [2, 8, 1]},
+    "batch_size": {"_type": "choice", "_value":  [64, 128, 256]},
+    "gamma": {"_type": "uniform", "_value":  [0.97, 0.99]},
+  "lr": {"_type": "uniform", "_value":  [1e-2, 1e-4]},
+  "memory_size": {"_type": "choice", "_value":  [1e6, 1e7]},
+  "decay_rate": {"_type": "uniform", "_value":  [0.01, 0.08]},
+  "max_steps": {"_type": "quniform", "_value":  [500, 1000, 100]}
+}
