@@ -28,8 +28,8 @@ You can look at the "requirements.txt" file attached [here](https://github.com/A
 ## Cloning this repo
 To install this project, run
 ```
-git clone https://github.com/AlfandaryAviv/Reinforcement-Learning-Project
-cd Reinforcement-Learning-Project
+git clone https://github.com/AlfandaryAviv/RL-Project
+cd RL-Project
 pip install -r requirements.txt
 ```
 
