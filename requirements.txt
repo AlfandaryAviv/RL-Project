@@ -1,6 +1,8 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
+# remove these 4 lines of explanations before running the command above
+
 _libgcc_mutex=0.1=main
 absl-py=0.11.0=pypi_0
 addict=2.4.0=pypi_0
