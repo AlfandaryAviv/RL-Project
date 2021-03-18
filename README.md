@@ -23,6 +23,7 @@ In this project, we have solved the ["LunarLanderContinuous-v2" open-ai gym envi
 The goal is to solve the environment as fast as possible.
 
 ## Dependecies
+You can look at the "requirements.txt" file attached [here](https://github.com/AlfandaryAviv/RL-Project/blob/main/requirements.txt)
 
 ## Cloning this repo
 To install this project, run
