@@ -115,6 +115,7 @@ To find the best hyperparameters, we used a tool named [NNI](https://github.com/
 - `nni_experiment.py` - Similar to the main file, only this is the main file for running NNI.
 - `config_{name_of_algorithm}.yml` - Configuration file needed to run NNI.
 - `search_space.json` - Parameters file to determine the NNI search space.
+
 To run NNI, you should first make sure the package `nni` is installed in your environment (appear in the requirements file) and run the following command from the appropriate directory:
 ```
 nnictl create --config config_{name_of_algorithm}.yml --port 8085
